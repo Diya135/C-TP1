@@ -135,17 +135,11 @@ int main(){
     cin>>N;
     int resultat=factoriel(N);
     if (resultat == -1)
-        cout<<"Le factoriel d'un nombre négatif n'existe pas."<<endl;
+        cout<<"Le factoriel d'un nombre nÃ©gatif n'existe pas."<<endl;
     else
         cout << "Le factoriel de "<<N<<" est: "<<resultat<<endl;
     return 0;
 }*/
-int main(){
-array<string,5> tab{"abc","def","ghi","jkl","mno"};
-sort(tab.begin(),tab.end());
-for(string i:tab)
-    cout<<i<<" ";
-return 0;
-}
+
 
 
